@@ -36,7 +36,7 @@ Accurate 3D interacting hand mesh reconstruction from RGB images is crucial for 
 **Robustness to asymmetric poses of two hands on InterHand2.6M.**
 
 <div style="display: flex; justify-content: center;">
-    <img src="Pic/pck1.png" style="margin-right: 10px; width: 35%;" />
+    <img src="Pic/pck1.png" style="margin-right: 10px; width: 30%;" />
     <img src="Pic/vpd1.png" style="margin-left: 10px; width: 45%;" />
 </div>
 
