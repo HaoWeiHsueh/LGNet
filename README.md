@@ -32,6 +32,10 @@ Accurate 3D interacting hand mesh reconstruction from RGB images is crucial for 
 **Comparison with SOTA methods on InterHand2.6M.**
 
 ![alt text](Pic/vpd1.png)
+
+**Robustness to asymmetric poses of two hands on InterHand2.6M.**
+
+
 #### Getting started
 
 - Clone this repo.
