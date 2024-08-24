@@ -18,7 +18,10 @@ Accurate 3D interacting hand mesh reconstruction from RGB images is crucial for 
 
 ![alt text](Pic/lgblock.png)
 
-**Visualization of attention maps in pseudo color.** Ten independent examples are shown. In each example, from left to right is the input image, local stage attention map overlaid on the image, and global stage attention map. For the local stage attention map, <span style="color:red;">red</span> represents attention from the right hand, and <span style="color:blue;">blue</span> represents attention from the left hand. Brighter colors indicate stronger attention. For the global attention map, brighter colors indicate stronger cross-hand attention. All attention maps have been normalized for better visualization.
+**The overall architecture of Local-and-Global Feature Adaptive Block (LGBlock).**  
+**Step 1.** Local unit for hand local interaction feature extraction. Local interaction features **F_inter^local** are extracted by fusing two hand features (**F_R** and **F_L**).  
+**Step 2.** Global unit for global interaction feature adaptation. The global interaction feature **F_inter^global** is obtained by fusing the local interaction feature (**F_interR** and **F_interL**) and adapted to each hand.
+
 
 ![alt text](Pic/am2.png)
 
