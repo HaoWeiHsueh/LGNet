@@ -3,7 +3,7 @@ LGNet: Local-and-Global Feature Adaptive Network for 3D Interacting Hand Mesh Re
 
 # Supplementary Material
 
-In this (supplementary material)[], we provide additional experiments, discussions, and other details that could not be included in the main text due to lack of space. The content is summarized as follows:
+In this [supplementary material](https://github.com/HaoWeiHsueh/LGNet/blob/main/Supplementary%20Material%20for%20LGNet.pdf), we provide additional experiments, discussions, and other details that could not be included in the main text due to lack of space. The content is summarized as follows:
 
 - **Detailed explanation of feature definitions**
 - **Detailed architecture of LGNet**
