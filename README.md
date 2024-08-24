@@ -29,18 +29,15 @@ Accurate 3D interacting hand mesh reconstruction from RGB images is crucial for 
 
 **Visualization of attention maps in pseudo color.** Ten independent examples are shown. In each example, from left to right is the input image, local stage attention map overlaid on the image, and global stage attention map. For the local stage attention map, red represents attention from the right hand, and blue represents attention from the left hand. Brighter colors indicate stronger attention. For the global attention map, brighter colors indicate stronger cross-hand attention. All attention maps have been normalized for better visualization.
 
-![alt text](Pic/pck1.png)
-
-**Comparison with SOTA methods on InterHand2.6M.**
-
-![alt text](Pic/vpd1.png)
-
-**Robustness to asymmetric poses of two hands on InterHand2.6M.**
 
 <div style="display: flex; justify-content: center;">
     <img src="Pic/pck1.png" style="margin-right: 10px; width: 33%;" />
     <img src="Pic/vpd1.png" style="margin-left: 10px; width: 45%;" />
 </div>
+
+**Comparison with SOTA methods on InterHand2.6M.**
+
+**Robustness to asymmetric poses of two hands on InterHand2.6M.**
 
 #### Getting started
 
