@@ -45,6 +45,10 @@ Accurate 3D interacting hand mesh reconstruction from RGB images is crucial for 
 
 ![alt text](Pic/as.png)
 
+![alt text](Pic/smqc1.png)
+
+![alt text](Pic/smqc2.png)
+
 #### Getting started
 
 - Clone this repo.
