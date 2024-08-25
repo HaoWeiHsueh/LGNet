@@ -82,18 +82,18 @@ Else, run the training code
 ```bash
 python train.py --gpu 0,1,2,3
 ```-->
-Coming soon.
+To release
 
 #### Testing
 <!--Note that implemented evaluation code is based on IntagHand (https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.pdf).
 ```bash
 python test.py --gpu 0,1,2,3 --test_epoch 29
 ```-->
-Coming soon.
+To release
 
 #### demo
 <!--Prepare the cropped hand image (example.png), then run
 ```bash
 python demo.py --gpu 0,1,2,3 --test_epoch 29 --input example_image1.png
 ```-->
-Coming soon.
+To release
