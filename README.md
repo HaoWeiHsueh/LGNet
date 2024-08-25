@@ -1,5 +1,5 @@
 # LGNet
-This is official **[PyTorch](https://pytorch.org/)** implementation of **[LGNet: Local-and-Global Feature Adaptive Network for 3D Interacting Hand Mesh Reconstruction](https://github.com/HaoWeiHsueh/LGNet/blob/main/LGNet_Local-and-Global%20Feature%20Adaptive%20Network%20for%203D%20Interacting%20Hand%20Mesh%20Reconstruction.pdf).**. 
+This is official **[PyTorch](https://pytorch.org/)** implementation of **[LGNet: Local-and-Global Feature Adaptive Network for 3D Interacting Hand Mesh Reconstruction](https://github.com/HaoWeiHsueh/LGNet/blob/main/LGNet_Local-and-Global%20Feature%20Adaptive%20Network%20for%203D%20Interacting%20Hand%20Mesh%20Reconstruction.pdf)**. 
 
 # Supplementary Material
 
