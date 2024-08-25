@@ -60,7 +60,7 @@ Accurate 3D interacting hand mesh reconstruction from RGB images is crucial for 
 
 ![alt text](Pic/smqc2.png)
 
-#### Getting started
+<!--#### Getting started
 
 - Clone this repo.
 ```bash
@@ -73,8 +73,38 @@ cd LGNet/main
 pip install -r requirements.txt
 ```
 
-- Prepare the training and testing dataset. (https://mks0601.github.io/InterHand2.6M/)
+- Prepare the training and testing dataset. (https://mks0601.github.io/InterHand2.6M/)-->
 
+#### Installation and Setup
+1. Setup the conda environment 
+    ```
+    conda create --name lgnet python==3.8.11
+    conda activate kypt_trans
+    conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+    pip install -r requirements.txt
+    ```
+    
+2. Download MANO model files from the [website](https://mano.is.tue.mpg.de/) 
+(requires login) and set the `smplx_path` in `config.py`
+
+3. Clone the Current Repo
+    ```
+   git clone <curr_repo>
+   cd kypt_trans
+   cd main
+    ``` 
+    
+The setup has been tested on NVIDIA 3090 GPU.
+
+Depending on the dataset you intend to train/evaluate follow the instructions below for the setup.
+#### InterHand2.6M Setup
+1. Download the dataset from the [website](https://mks0601.github.io/InterHand2.6M/)
+2. In `config.py`, set `interhand_anno_dir` to point to the annotations directory
+3. In `config.py`, set `interhand_images_path` to point to the images directory
+4. If you intend to use [RootNet](https://github.com/mks0601/3DMPPE_ROOTNET_RELEASE) output for the 
+root joint translation, download the RootNet results for InterHand2.6M from [here](https://github.com/facebookresearch/InterHand2.6M#results). 
+Set `root_net_output_path` in `config.py` for point to the RootNet outputs folder. 
+Instead, if you intend to test with ground-truth relative translation, set `root_net_output_path` to `None`
 #### Training
 <!-- If you prefer not to train the model, you can simply obtain the pretrained model by downloading it from this link:
 https://drive.google.com/file/d/14veExC7JG0jj1fXfIF0hz3dnxs7LqLXk/view?usp=sharing 
