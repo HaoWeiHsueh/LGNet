@@ -79,7 +79,7 @@ pip install -r requirements.txt
 1. Setup the conda environment 
     ```
     conda create --name lgnet python==3.8.11
-    conda activate kypt_trans
+    conda activate lgnet
     conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
     pip install -r requirements.txt
     ```
@@ -90,7 +90,7 @@ pip install -r requirements.txt
 3. Clone the Current Repo
     ```
    git clone <curr_repo>
-   cd kypt_trans
+   cd lgnet
    cd main
     ``` 
     
