@@ -1,5 +1,5 @@
 # LGNet: Local-and-Global Feature Adaptive Network for Single Image Two-Hand Reconstruction
-This is official **[PyTorch](https://pytorch.org/)** implementation of **[LGNet: Local-and-Global Feature Adaptive Network for Single Image Two-Hand Reconstruction](LGNet_Local-and-Global Feature Adaptive Network for Single Image Two-Hand Reconstruction.pdf)**. 
+This is official **[PyTorch](https://pytorch.org/)** implementation of **[LGNet: Local-and-Global Feature Adaptive Network for Single Image Two-Hand Reconstruction]([LGNet_Local-and-Global Feature Adaptive Network for Single Image Two-Hand Reconstruction.pdf](https://github.com/HaoWeiHsueh/LGNet/blob/main/LGNet_Local-and-Global%20Feature%20Adaptive%20Network%20for%20Single%20Image%20Two-Hand%20Reconstruction.pdf))**. 
 
 # Supplementary Material
 
