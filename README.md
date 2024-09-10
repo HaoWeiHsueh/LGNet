@@ -1,5 +1,5 @@
 # LGNet: Local-and-Global Feature Adaptive Network for Single Image Two-Hand Reconstruction
-This is official **[PyTorch](https://pytorch.org/)** implementation of **[LGNet: Local-and-Global Feature Adaptive Network for Single Image Two-Hand Reconstruction]([LGNet_Local-and-Global Feature Adaptive Network for Single Image Two-Hand Reconstruction.pdf](https://github.com/HaoWeiHsueh/LGNet/blob/main/LGNet_Local-and-Global%20Feature%20Adaptive%20Network%20for%20Single%20Image%20Two-Hand%20Reconstruction.pdf))**. 
+This is official **[PyTorch](https://pytorch.org/)** implementation of **[LGNet: Local-and-Global Feature Adaptive Network for Single Image Two-Hand Reconstruction](https://github.com/HaoWeiHsueh/LGNet/blob/main/LGNet_Local-and-Global%20Feature%20Adaptive%20Network%20for%20Single%20Image%20Two-Hand%20Reconstruction.pdf)**. 
 
 # Supplementary Material
 
@@ -10,7 +10,7 @@ In this [supplementary material](https://github.com/HaoWeiHsueh/LGNet/blob/main/
 - **Detailed experiments**
 - **Discussion**
 
-Note that all the notation and abbreviations here are consistent with [the main manuscript](https://github.com/HaoWeiHsueh/LGNet/blob/main/LGNet_Local-and-Global%20Feature%20Adaptive%20Network%20for%203D%20Interacting%20Hand%20Mesh%20Reconstruction.pdf).
+Note that all the notation and abbreviations here are consistent with [the main manuscript](https://github.com/HaoWeiHsueh/LGNet/blob/main/LGNet_Local-and-Global%20Feature%20Adaptive%20Network%20for%20Single%20Image%20Two-Hand%20Reconstruction.pdf).
 
 ### Abstract
 Accurate 3D interacting hand mesh reconstruction from RGB images is crucial for applications such as robotics, augmented reality (AR), and virtual reality (VR). Especially in the field of robotics, accurate interacting hand mesh reconstruction can significantly improve the accuracy and naturalness of human-robot interaction. This task requires accurate understanding of complex interactions between two hands and ensuring reasonable alignment of the hand mesh with the image.
